@@ -1,0 +1,54 @@
+﻿<div ng-controller="EmployeeController">
+    <div class="edit panel">
+        <div>
+            <input class="btn" type="button" value="Save data" ng-click="saveData()" />
+            <input class="btn" type="button" value="New employee" ng-click="newEmployee()" />
+            <hr>
+        </div>
+        <div class="text">Id:</div>
+        <div class="text"><input type="text" ng-model="employee.empId"></div>
+        <div class="text">First Name:</div>
+        <div class="text"><input type="text" ng-model="employee.firstName"></div>
+        <div class="text">Last Name:</div>
+        <div class="text"><input type="text" ng-model="employee.lastName"></div>
+        <div class="text">Age:</div>
+        <div class="text"><input type="text" ng-model="employee.age"></div>
+        <div class="text">Actvity:</div>
+        <div class="text"><input type="text" ng-model="employee.activity"></div>
+        <div class="text">Department:</div>
+        <div class="text"><input type="text" ng-model="employee.department"></div>
+    </div>
+
+    <div class="lista panel">
+        Filter: <input class="form-control" type="search" ng-model="selEmployee">
+        Order:
+        <select class="form-control" ng-model="sortOrder">
+            <option value="+lastName">Last Name</option>
+            <option value="+firstName">First Name</option>
+            <option value="-activity">Activity</option>
+            <option value="-department">Department</option>
+        </select>
+        <div>
+            <br />
+            <table class="table table-bordered">
+                <thead>
+                    <tr style="font-weight:bold">
+                        <th width="30%">First Name</th>
+                        <th width="30%">Last Name</th>
+                        <th width="20%">Age</th>
+                        <th width="20%">Active</th>
+                        <th width="20%">Department</th>
+                        <th width="20%">Delete</th>
+                    </tr>
+                    <tr ng-repeat="item in employees | orderBy: sortOrder | filter: selEmployee">
+                        <td width="30%"><a href="#/employee" ng-click="transfer(item)">{{ item.firstName }}</a></td>
+                        <td width="30%"> {{ item.lastName }}</td>
+                        <td width="20%"> {{ item.age }}</td>
+                        <td width="20%"> {{item.activity}}</td>
+                        <td width="20%"> {{ item.departmentName }}</td>
+                        <td><button type="button" value="Delete" class="glyphicon glyphicon-trash" style="color:red" ng-click="transfer(item); deleteData();"></button></td>
+                    </tr>
+            </table>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,12 @@
+C:\MistralProjects\Test\Seed\bin\Debug\Seed.exe.config
+C:\MistralProjects\Test\Seed\bin\Debug\Seed.exe
+C:\MistralProjects\Test\Seed\bin\Debug\Seed.pdb
+C:\MistralProjects\Test\Seed\bin\Debug\Database.dll
+C:\MistralProjects\Test\Seed\bin\Debug\EntityFramework.dll
+C:\MistralProjects\Test\Seed\bin\Debug\EntityFramework.SqlServer.dll
+C:\MistralProjects\Test\Seed\bin\Debug\Database.pdb
+C:\MistralProjects\Test\Seed\bin\Debug\EntityFramework.xml
+C:\MistralProjects\Test\Seed\bin\Debug\EntityFramework.SqlServer.xml
+C:\MistralProjects\Test\Seed\obj\Debug\Seed.csprojResolveAssemblyReference.cache
+C:\MistralProjects\Test\Seed\obj\Debug\Seed.exe
+C:\MistralProjects\Test\Seed\obj\Debug\Seed.pdb

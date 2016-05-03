@@ -1,0 +1,12 @@
+C:\MistralProjects\Test\Database\bin\Debug\Database.dll.config
+C:\MistralProjects\Test\Database\bin\Debug\Database.dll
+C:\MistralProjects\Test\Database\bin\Debug\Database.pdb
+C:\MistralProjects\Test\Database\bin\Debug\EntityFramework.dll
+C:\MistralProjects\Test\Database\bin\Debug\EntityFramework.SqlServer.dll
+C:\MistralProjects\Test\Database\bin\Debug\EntityFramework.xml
+C:\MistralProjects\Test\Database\bin\Debug\EntityFramework.SqlServer.xml
+C:\MistralProjects\Test\Database\obj\Debug\Database.csprojResolveAssemblyReference.cache
+C:\MistralProjects\Test\Database\obj\Debug\Database.dll
+C:\MistralProjects\Test\Database\obj\Debug\Database.pdb
+C:\MistralProjects\Test\Database\obj\Debug\Database.Migrations.Dzanan.resources
+C:\MistralProjects\Test\Database\obj\Debug\Database.csproj.GenerateResource.Cache
